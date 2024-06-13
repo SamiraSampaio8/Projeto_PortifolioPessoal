@@ -39,8 +39,11 @@ body *{
     color: var(--tex-color);
 }
 #container{
-    width: 360px;/*largura*/
+
+    
+    width: 100% ;/*largura*/
     /*border: 1px solid red;/* border pode ter 3 propriedades*/
+    max-width: 588px;
     margin: 56px auto 0px;
     /*padding: 1px; /*preenchimento interno*/
     padding: 0 24px;
